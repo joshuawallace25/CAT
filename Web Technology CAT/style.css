@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:
+}
+
+.Second{
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+a{
+    color: white;
+}
+.about{
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+}
+.login{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Explore{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding:50px
+}
+.first-paragraph{
+    color:white;
+    text-align:center;
+}
+.started{
+    padding: 5px;
+    margin-top: 1em;
+    width: 10em;
+    border: none;
+    border-radius: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.services{
+    color: white;
+    margin:18px
+}
+
+div{
+    display: flex;
+    background-color: white;
+    border-radius: 1em;
+    width:60%
+}
+.secondpr{
+    margin:10px;
+    padding:1em;
+    margin-right: 20px;
+}
+.thirdpr{
+    margin:10px;
+    padding:1em;
+    margin-right: 20px;
+}
+.fourthpr{
+    margin:10px;
+    padding:1em;
+    margin-right: 20px;
+}
+
+.basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.standard{
+    display: flex;
+    flex-direction: column;
+}
+.premium{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width:30%
+}
+@media (max-width: 780px) {
+    
+}
+
+.Login Form{
+    
+}
