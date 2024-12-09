@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <label class="logo">Fast Learn</label>
-        <a href="index.html" class="about"><li>Home</li></a>
-        <a href="about.html" class="login"><li>About</li></a>
-    </nav>
+  <nav>
+    <label class="logo">Fast Learn</label>
+    <ul>
+      <li><a href="index.html">Categories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="login.html" class="login-btn">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
     <h2>Login Form</h2>
     <form id="login-form">
-        <label for="name">Names:</label>
-        <input type="text" id="name" name="name" ><br><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password"><br><br>
-
-        <button type="submit">Login</button>
+      <label for="name">Names:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <button type="submit">Login</button>
     </form>
-    <div id="error-message" style="color: red; margin-top: 10px;"></div>
-    <script src="script.js"></script>
+    <div id="error-message"></div>
+  </div>
+
+  <footer>
+    <div>
+      <h4>Our working hours</h4>
+      <p>Mon-Tue: 9:00 to 4PM</p>
+      <p>Wed-Thu: 9:00 to 4PM</p>
+      <p>Fri-Sat: 9:00 to 4PM</p>
+    </div>
+    <div>
+      <h4>Our offices</h4>
+      <p>Kimiruhura office</p>
+      <p>Nyarutarama office</p>
+      <p>Remera office</p>
+    </div>
+    <div>
+      <h4>Our contacts</h4>
+      <p>Kimiruhura office</p>
+      <p>Nyarutarama office</p>
+      <p>Remera office</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
